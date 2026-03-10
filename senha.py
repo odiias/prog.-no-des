@@ -1,6 +1,6 @@
 senha = input("Digite a senha: ")
-
-if senha == "python123":
+valida_senha = senha == "python123"
+if valida_senha:
     print("A senha esta correta.")
 else:
     print("Acesso negado.")
